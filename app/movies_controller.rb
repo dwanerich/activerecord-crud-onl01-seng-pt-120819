@@ -20,7 +20,6 @@ end
 
 
 def can_be_created_in_a_block
-  movie = can_be_created_in_a_block
   Movie.new do |m|
   m.title = "Home Alone"
   m.release_date = 1990
