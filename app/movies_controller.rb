@@ -25,7 +25,6 @@ def can_be_created_in_a_block(hash)
   m.release_date = hash[:release_date]
   m.save
   end
-
 end
 
 
