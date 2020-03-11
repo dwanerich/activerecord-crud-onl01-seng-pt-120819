@@ -23,8 +23,9 @@ def can_be_created_in_a_block(hash)
   Movie.create do |m|
   m.title = hash[:title]
   m.release_date = hash[:release_date]
-  end
   m.save
+  end
+
 end
 
 
